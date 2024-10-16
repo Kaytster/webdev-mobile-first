@@ -8,6 +8,8 @@ h2 {
   max-width: 1200px;
   min-width: 600px;
 }
+
+/* Header */
 header {
   border-radius: 8px;
   display: flex;
@@ -36,6 +38,8 @@ nav ul li {
 nav li:first-child {
   border-left: none;
 }
+
+/* Body */
 main{
   display: flex;
   gap: 10px;
@@ -73,4 +77,27 @@ th {
 tr:nth-child(odd) {
   background-color: #ccc;
 }
-/* Form Styling Needs Adding */
+
+/* Contact Me Form */
+form {
+  width: 50%;
+  margin: auto;
+}
+
+form > div {
+  margin: 15px 0;
+  display: flex;
+}
+
+label {
+  display: inline-block;
+  width: 120px;
+}
+
+.submitContainer {
+  justify-content: flex-end;
+}
+input[type="submit"] {
+  width: auto;
+  margin: 0;
+}
